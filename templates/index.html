@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cyber Threat Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body{
+font-family: Arial;
+margin:40px;
+background:#f4f4f4;
+}
+
+h1{
+color:#333;
+}
+
+input{
+padding:8px;
+}
+
+button{
+padding:8px 12px;
+}
+
+table{
+margin-top:20px;
+border-collapse: collapse;
+width:60%;
+}
+
+th, td{
+padding:8px;
+border:1px solid #ccc;
+text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Cyber Threat Intelligence Dashboard</h1>
+
+<form method="POST">
+<input type="text" name="ip" placeholder="Enter IP or URL">
+<button type="submit">Submit</button>
+</form>
+
+
+{% if result %}
+
+<h2>Result</h2>
+
+<p><b>IP or URL:</b> {{ result.ip }}</p>
+<p><b>Threat Score:</b> {{ result.score }}</p>
+<p><b>Threat Level:</b> {{ result.threat_level }}</p>
+
+{% endif %}
+
+
+<h2>Threat Statistics</h2>
+
+<canvas id="myChart"></canvas>
+
+
+<script>
+
+const chart = new Chart(
+document.getElementById('myChart'),
+{
+type:'bar',
+data:{
+labels:['HIGH','MEDIUM','LOW'],
+datasets:[{
+label:'Threat Levels',
+data:[{{ high }},{{ medium }},{{ low }}]
+}]
+}
+}
+);
+
+</script>
+
+
+<h2>Scan History</h2>
+
+<table>
+
+<tr>
+<th>IP</th>
+<th>Score</th>
+<th>Threat Level</th>
+<th>Country</th>
+</tr>
+
+{% for item in history %}
+
+<tr>
+<td>{{ item.ip }}</td>
+<td>{{ item.score }}</td>
+<td>{{ item.threat_level }}</td>
+<td>{{ item.country }}</td>
+</tr>
+
+{% endfor %}
+
+
+
+</table>
+
+</body>
+</html>
