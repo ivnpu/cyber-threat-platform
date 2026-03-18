@@ -1,87 +1,93 @@
-# Cyber Threat Intelligence Platform
+# 🛡️ Cyber Threat Intelligence Platform
 
-A web-based cybersecurity tool that analyzes IP addresses and URLs to detect malicious or suspicious activity.
+## 📌 Overview
 
-## Live Demo
-
-https://cyber-threat-platform-production.up.railway.app/
-
----
-
-## Overview
-
-Cyber Threat Intelligence Platform is a security-focused web application built using Python and Flask. It allows users to analyze IP addresses and URLs to determine whether they may be malicious, suspicious, or safe.
-
-The platform generates a threat score and classifies the risk level while providing a dashboard that visualizes threat statistics and scan history.
+A web-based cybersecurity platform that analyzes IP addresses and URLs to detect potential threats.
+The system provides risk scoring, real-time analysis, and an interactive dashboard for monitoring suspicious activities.
 
 ---
 
-## Features
+## 🚀 Features
 
-* IP Address Threat Analysis
-* URL Risk Detection
-* Threat Score Calculation
-* Threat Level Classification (High / Medium / Low)
-* Threat Statistics Dashboard
-* Scan History Database
-* Country Identification for IP sources
-* Interactive Charts Visualization
+* 🔍 IP & URL threat analysis
+* ⚠️ Risk-based threat scoring system
+* 📊 Interactive dashboard with visualization
+* 🗂️ Scan history tracking
+* 🌐 Web interface using Flask
 
 ---
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-* Python
-* Flask
-* SQLite
-* Chart.js
-* HTML
-* CSS
-* JavaScript
+* **Backend:** Python, Flask
+* **Database:** SQLite
+* **Frontend:** HTML, CSS, JavaScript
+* **Visualization:** Chart.js
 
 ---
 
-## How It Works
+## 📊 Key Highlights
 
-1. The user enters an IP address or URL.
-2. The system analyzes the input using threat intelligence APIs and detection rules.
-3. A threat score is calculated.
-4. The platform classifies the threat level.
-5. Results are displayed in the dashboard with statistics and scan history.
+* Simulates real-world threat intelligence systems
+* Provides fast and efficient analysis of security indicators
+* Built with scalability in mind for future AI integration
 
 ---
 
-## Project Structure
+## 🌐 Live Demo
 
-```
-cyber-threat-intelligence-platform
-│
-├── app.py
-├── analyzer.py
-├── requirements.txt
-│<img width="1724" height="684" alt="لقطة شاشة 2026-03-18 084830" src="https://github.com/user-attachments/assets/fd30f829-4db7-4824-9778-ea5a3733ab6e" />
+👉 https://cyber-threat-platform-production.up.railway.app/
 
-├── templates
-│   └── index.html
-│
-└── static
+---
+
+## 📸 Screenshots
+
+### 🖥️ Full System (Before Analysis)
+
+![Full Project](Mad.png)
+
+### ⌨️ Input Example
+
+![Input](Dashboard.png)
+
+### 📊 Analysis Result
+
+![Analysis](Analysis.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash id="install001"
+git clone https://github.com/ivnpu/cyber-threat-platform.git
+cd cyber-threat-platform
+pip install -r requirements.txt
+python app.py
 ```
 
----
-
-## Future Improvements
-
-* Machine Learning phishing detection
-* Real-time threat intelligence feeds
-* Global attack map visualization
-* User authentication system
-* Advanced threat analytics dashboard
+Then open in your browser:
+http://127.0.0.1:5000
 
 ---
 
-## Author
+## 🧪 Example Use Cases
+
+* Analyze suspicious IP addresses
+* Evaluate potentially malicious URLs
+* Monitor threat scores through the dashboard
+
+---
+
+## 📈 Future Improvements
+
+* 🤖 Integrate machine learning for advanced threat detection
+* 🌐 Real-time network traffic monitoring
+* 🔗 External threat intelligence APIs (e.g., VirusTotal)
+* 🔐 User authentication system
+
+---
+
+## 👨‍💻 Author
 
 Ali Abdullah
-Computer Science Student
-Cybersecurity Enthusiast
-
+🔗 https://github.com/ivnpu
