@@ -59,7 +59,8 @@ cyber-threat-intelligence-platform
 ├── app.py
 ├── analyzer.py
 ├── requirements.txt
-│
+│<img width="1724" height="684" alt="لقطة شاشة 2026-03-18 084830" src="https://github.com/user-attachments/assets/fd30f829-4db7-4824-9778-ea5a3733ab6e" />
+
 ├── templates
 │   └── index.html
 │
@@ -83,3 +84,4 @@ cyber-threat-intelligence-platform
 Ali Abdullah
 Computer Science Student
 Cybersecurity Enthusiast
+
