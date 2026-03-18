@@ -44,16 +44,18 @@ The system provides risk scoring, real-time analysis, and an interactive dashboa
 
 ### 🖥️ Full System (Before Analysis)
 
-![Full Project](<img width="1724" height="684" alt="Dashboard" src="https://github.com/user-attachments/assets/f901ef34-a01d-4e13-803d-bb45daa86660" />
-ad.png)
+ <img width="1724" height="684" alt="Dashboard" src="https://github.com/user-attachments/assets/f901ef34-a01d-4e13-803d-bb45daa86660" />
+
 
 ### ⌨️ Input Example
 
-![Input](Dashboard.png)
+<img width="1724" height="684" alt="Dashboard" src="https://github.com/user-attachments/assets/e38b7ebe-5bfc-4752-8e4d-8534d3ed84f6" />
+
 
 ### 📊 Analysis Result
 
-![Analysis](Analysis.png)
+<img width="1867" height="1481" alt="Analysis" src="https://github.com/user-attachments/assets/ad1a8618-4842-4910-90d2-d6b7f871d44f" />
+
 
 ---
 
