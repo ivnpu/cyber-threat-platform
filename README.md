@@ -44,7 +44,8 @@ The system provides risk scoring, real-time analysis, and an interactive dashboa
 
 ### 🖥️ Full System (Before Analysis)
 
-![Full Project](Mad.png)
+![Full Project](<img width="1724" height="684" alt="Dashboard" src="https://github.com/user-attachments/assets/f901ef34-a01d-4e13-803d-bb45daa86660" />
+ad.png)
 
 ### ⌨️ Input Example
 
